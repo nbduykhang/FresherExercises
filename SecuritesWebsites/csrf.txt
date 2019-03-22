@@ -1,0 +1,4 @@
+http://example.com/app/transferFunds?amount=1500&destinationAccount=4673243243 
+Hacker add url on tag img: <img src = "http://example.com/app/transferFunds?amount=1500&destinationAccount=4673243243" width = "0" height = "0" />
+
+Resolve: use CSRF class

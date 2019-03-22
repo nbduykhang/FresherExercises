@@ -1,0 +1,27 @@
+<form action="" method="POST">
+    Comment: <input type="text" name="comment" value="">
+	<input type="submit" value="Submit">
+	<div class="comment_div">
+		<p class="name">Posted By: News</p>
+		<p class="posted_comment">
+			<a href="http://abc.net/">abc</a><br>
+			<a href="http://abc.net/">def</a><br>
+			<a href="http://abc.net/">ghi</a><br>
+			<a href="http://abc.net/">mno</a><br>
+			<a href="http://abc.net/">xyz</a><br>
+		</p>
+</form>
+Add: <script>
+		alert(document.links.length); 
+		for(i=0;i<=document.links.length;i++)
+		{
+		    document.links[i].href="cde.net";
+		}
+	</script>
+
+Replace all 'abc.net' -> 'cde.net'
+			<a href="http://cde.net">abc</a><br>
+			<a href="http://cde.net">def</a><br>
+			<a href="http://cde.net">ghi</a><br>
+			<a href="http://cde.net">mno</a><br>
+			<a href="http://cde.net">xyz</a><br>
