@@ -1,0 +1,10 @@
+nthanhvu@tma.com.vn
+
+https://viblo.asia/p/viet-repository-sach-hon-trong-laravel-Qbq5QA6z5D8
+https://viblo.asia/p/curd-voi-repository-trong-laravel-5-part-1-PDOkqLJMejx
+https://viblo.asia/p/curd-voi-repository-trong-laravel-5-part2-jqEKqpQDRnv
+https://viblo.asia/p/laravel-design-patterns-series-repository-pattern-part-3-ogBG2l1ZRxnL
+
+https://techblog.vn/phan-quyen-nguoi-dung-voi-laravel-authorization
+https://viblo.asia/p/tim-hieu-authorization-trong-laravel-gGJ59jYpKX2
+https://viblo.asia/p/traits-in-php-and-laravel-l0rvmxzQGyqA
